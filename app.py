@@ -1,12 +1,11 @@
 import pyfiglet
 
-from games import Train, G301
+from games import Train, G301, G501
 
 modes = {
     '1' : G301,
-    '2' : None,
-'3' : Train
-
+    '2' : G501,
+    '3' : Train
 }
 
 if __name__ == '__main__':
